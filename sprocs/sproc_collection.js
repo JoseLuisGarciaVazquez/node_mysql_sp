@@ -38,7 +38,7 @@ const SP_test3 = {name: 'SP_test3',query: `CREATE PROCEDURE SP_test3(
  const SP_test5 = {name: 'SP_test5',query: `CREATE PROCEDURE SP_test5(
             )
             BEGIN
-               
+               SELECT * FROM ticket;
             END`} 
     
 const all_store_procedure = [
